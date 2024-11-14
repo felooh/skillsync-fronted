@@ -14,4 +14,5 @@ cp -r build/* /var/www/html
 # npm install pm2 -g
 
 # Restart Nginx to serve the updated files
+
 systemctl restart nginx
