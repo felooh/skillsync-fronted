@@ -15,4 +15,5 @@ cp -r build/* /var/www/html
 
 # Restart Nginx to serve the updated files
 
+
 systemctl start nginx
