@@ -8,7 +8,6 @@ phases:
     commands:
         # install npm
         - npm install
-        - npm install react-scripts --save
        
   build:
     commands:
