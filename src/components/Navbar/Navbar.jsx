@@ -16,7 +16,6 @@ const Navbar = () => {
 						<img src={logoImg} alt='site logo' />
 						<span className='text-uppercase fw-7 fs-24 ls-1'>nerdshub</span>
 					</Link>
-					
 					<button
 						type='button'
 						className='navbar-toggler-btn'
