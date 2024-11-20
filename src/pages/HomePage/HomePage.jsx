@@ -11,6 +11,9 @@ const HomePage = () => {
 				<Navbarhome />
 				<div className='header-content flex flex-c text-center text-white'>
 					<h1 className='header-title text-capitalize'>
+						I HAVE FINALLY ACED THIS DEPLOYEMENT...THANK YOU MARCRINE.
+					</h1>
+					<h1 className='header-title text-capitalize'>
 						BOOK STORE.
 					</h1>
 					<br />
