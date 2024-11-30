@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
-import logoImg from '../../images/logo.png';
+import logoImg from '../../images/1174949_js_react js_logo_react_react native_icon.png'
 import './Navbar.css';
 
 const Navbarhome = () => {
@@ -13,8 +13,10 @@ const Navbarhome = () => {
 			<div className='container navbar-content flex'>
 				<div className='brand-and-toggler flex flex-sb'>
 					<Link to='/' className='navbar-brand flex'>
-						<img src={logoImg} alt='site logo' />
-						<span className='text-uppercase fw-7 fs-24 ls-1'>nerdshub</span>
+						<img src={logoImg} alt='site logo'/>
+						<span className='text-uppercase fw-7 fs-24 ls-1'>
+							Route53
+						</span>
 					</Link>
 					<button
 						type='button'
@@ -48,26 +50,34 @@ const Navbarhome = () => {
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='/'
+								to='/features'
 								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
 							>
-								About
+								Features
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='/register'
+								to='/pricing'
 								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
 							>
-								Register
+								Pricing
 							</Link>
 						</li>
 						<li className='nav-item'>
 							<Link
-								to='/login'
+								to='/documentation'
 								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
 							>
-								Login
+								Docs
+							</Link>
+						</li>
+						<li className='nav-item'>
+							<Link
+								to='/contact'
+								className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'
+							>
+								Contact
 							</Link>
 						</li>
 					</ul>
