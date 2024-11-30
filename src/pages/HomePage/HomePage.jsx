@@ -9,6 +9,7 @@ const HomePage = () => {
 		<div className='holder'>
 			<header className='header'>
 				<Navbarhome />
+				
 				<div className='header-content flex flex-c text-center text-white'>
 					<h1 className='header-title text-capitalize'>
 						AWS Route 53 Deployment: Simplified and Seamless
